@@ -1,0 +1,42 @@
+.cal-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 220px;
+}
+
+.cal-button {
+  flex: 1;
+  flex-basis: 25%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.cal-clear {
+  flex-basis: 25%;
+  background-color: rgb(245, 236, 220);
+  border: 1px solid rgb(129, 79, 79);
+  border-top: none;
+  border-right: none;
+}
+
+.cal-number {
+  background-color: rgb(245, 236, 220);
+  border: 1px solid rgb(129, 79, 79);
+  border-top: none;
+  border-right: none;
+}
+
+.cal-opretor {
+  background-color: rgb(223, 106, 106);
+  border: 1px solid rgb(129, 79, 79);
+  border-top: none;
+  color: white;
+}
+
+.cal-input {
+  height: 50px;
+  width: 212px;
+  font-size: 25px;
+  background-color: rgb(139, 44, 44);
+  color: white;
+}
